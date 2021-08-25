@@ -185,21 +185,19 @@
 
         <div class="appointment-counter">
 
-          <p class="appointment-item__counter">
-            Взрослые:
+          <div class="appointment-item__counter">
+            <span>Взрослые</span>
+            <button class="button-counter" data-direction="minus">-</button>
+            <input class="button-counter__input" type="text" value="0">
+            <button class="button-counter" data-direction="plus">+</button>
+          </div>
 
-            <button class="button-counter" id="subtract-adults">-</button>
-            <input class="button-counter__input" type="text" value="12">
-            <button class="button-counter" id="add">+</button>
-
-          </p>
-
-          <p class="appointment-item__counter">
+          <div class="appointment-item__counter">
             Дети:
-            <button class="button-counter" id="subtract-children">-</button>
-            <input class="button-counter__input" type="text" value="12">
-            <button class="button-counter" id="add">+</button>
-          </p>
+            <button class="button-counter" data-direction="minus">-</button>
+            <input class="button-counter__input" type="text" value="0">
+            <button class="button-counter" data-direction="plus">+</button>
+          </div>
 
         </div>
 

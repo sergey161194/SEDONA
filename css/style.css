@@ -273,13 +273,15 @@ main {
   cursor: pointer;
 }
 
-#subtract-adults {
+/* Обратится по классу */
+
+/* #subtract-adults {
   margin-left: 42px;
 }
 
 #subtract-children {
   margin-left: 27px;
-}
+} */
 
 .appointment-date {
   width: 325px;
